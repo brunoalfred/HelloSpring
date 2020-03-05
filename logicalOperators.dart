@@ -2,10 +2,11 @@ main(List<String> args) {
   // logical operators include (!, &&, ||)
 
   int number  = 100 ;
+  bool state = false ;
 
-// using logical operators to negate.
+// using logical operators.
 
-  if ( !(number != 20) ) {
+  if ( !(number != 20) || state ) {
 
     print("It is not 20") ;
   }
