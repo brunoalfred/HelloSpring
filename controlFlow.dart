@@ -3,7 +3,7 @@ main(List<String> args) {
 
   bool state = true ;
 
-  if (state) {
+  /* if (state) {
 
     print ("It is ON") ;
 
@@ -12,5 +12,12 @@ main(List<String> args) {
   else {
     print ("It is OFF") ;
 
-  }
+  } */
+
+  // for statement
+
+  for (var i = 0 ; i < 10 ; i++  )
+      if (i % 2 == 0)
+        print ("Hello $i") ;
+
 }
