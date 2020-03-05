@@ -7,17 +7,19 @@ class Microphone {
     int model ;
 
     //constructors instantiation
+    /*
     Microphone(String name, String color, int model) {
         this.name = name ;
         this.color = color ;
         this.model = model ;
 
     }
+    */
 
     //syntactic sugar in dart programming
     //More simplified way to create constructor
-    
-    // Microphone (this.name, this.color, this.model) ; 
+
+    Microphone (this.name, this.color, this.model) ; 
 
 
     // methods 
