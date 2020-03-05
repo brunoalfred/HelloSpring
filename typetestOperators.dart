@@ -7,6 +7,10 @@ main(List<String> args) {
 // testing the type of a variables
 
   print (home_city is int) ;
+  print (home_city is! int) ;
+
+
+  // important to check for "types" at the runtime of the program.
 
 
 }
