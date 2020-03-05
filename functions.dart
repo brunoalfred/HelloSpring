@@ -7,9 +7,11 @@ main(List<String> args) {
   var full_name = sayMyName() ;
   print (full_name) ;
 
-  print ("Hello ${sayMyName()} your age is ${showage()}") ;
+  print ("Hello ${sayMyName()}x") ;
 
   print ( myProgramme() ) ;
+
+
 
 }
 
@@ -42,13 +44,11 @@ String sayMyName () {
 
 }
 
-// return type integer
 
-int showage () {
 
-  return 34 ;
 
-}
+
+
 
 // alternatively in expressing return 
 
