@@ -14,6 +14,10 @@ class Microphone {
 
     }
 
+    //syntactic sugar in dart programming
+    //More simplified way to create constructor
+    
+    // Microphone (this.name, this.color, this.model) ; 
 
 
     // methods 
