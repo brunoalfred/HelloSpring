@@ -66,9 +66,29 @@ main(List<String> args) {
 
   // switch case
 
-  num age = 18 ;
+  num umri = 17 ;
 
-  switch (age)
+  switch (umri) {
+
+      case 19:
+        print ("Allowed") ;
+        break ;
+
+      case 12:
+        print ("Not Allowed") ;
+        break ;
+
+      case 20:
+        print ("Allowed") ;
+        break ;
+
+      case 17:
+        print ("Not Allowed") ;
+        break ;
+
+      default:
+        print ("Invalid") ;
+  }
   
 
 
