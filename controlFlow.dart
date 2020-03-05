@@ -66,6 +66,11 @@ main(List<String> args) {
 
   // switch case
 
+  num age = 18 ;
+
+  switch (age)
+  
+
 
 
 
