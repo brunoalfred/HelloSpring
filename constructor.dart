@@ -7,7 +7,9 @@ class dog {
     int weight ;
 
    // constructor instantiating 
-   void set_descriptions (this.age, this.sex, this.weight) ;
+   dog (this.age, this.sex, this.weight) ;
+
+
 
   
 
@@ -19,7 +21,8 @@ class dog {
 
 main(List<String> args) {
   
-  
+  var  bruno = new dog(21, "Male", 32) ;
+  print(bruno.age) ;
 
 
 
