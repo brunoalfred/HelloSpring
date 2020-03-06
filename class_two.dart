@@ -7,9 +7,9 @@ class student {
     //method instantiating
     void setDetails (String name, String sex, int age) {
       
-      name = name ;
-      sex = sex ;
-      age = age ;
+      this.name = name ;
+      this.sex = sex ;
+      this.age = age ;
 
     }
 
