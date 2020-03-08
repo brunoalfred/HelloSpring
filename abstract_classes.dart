@@ -15,8 +15,8 @@ class Person implements Animal {
     // member fields 
     String name,  nationality ;
 
-    // constructor instantiation
-    Person(this.name, this.nationality) ;
+    // constructor instantiation with a label
+    Person.create(this.name, this.nationality) ;
 
   @override
   void breathe() {
@@ -36,7 +36,7 @@ class Person implements Animal {
 
 main(List<String> args) {
   
-  var bruno = new Person("BRUNO", "TANZANIAN") ;
+  var bruno = new Person.create("BRUNO", "TANZANIAN") ;
 
   bruno.breathe() ;
 
