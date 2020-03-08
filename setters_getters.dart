@@ -8,8 +8,12 @@ class student {
   student{this.name, this.age, this.phone_number} ;
 
   // setter
-  String name ;
-  
+
+  set setName (String value)  => name = value ;
+
+  //  getter 
+
+  String get getName => name ;
 
 
 }
@@ -17,7 +21,7 @@ class student {
 main(List<String> args) {
   
   // instantiating the class
-  var john = new student("john", 20, 071273821) ;
+  var john = new student ("john", 20, 071273821) ;
 
 
 
