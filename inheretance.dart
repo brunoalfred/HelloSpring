@@ -26,7 +26,11 @@ class Bruno extends Person {
     print ("HABARI") ;
   }
 
-  
+  @override
+  void sayNationality() {
+    // TODO: implement sayNationality
+    print ("TANZANIAN") ;
+  }
 
 }
 
@@ -39,5 +43,25 @@ class Alpha extends Person {
     // TODO: implement sayHello
     print ("NIAJE") ;
   }
+
+  @override
+  void sayNationality() {
+    // TODO: implement sayNationality
+    print ("KENYAN") ;
+  }
+
+}
+
+main(List<String> args) {
+  
+  //  Instantiating objects from the classes
+  var Bruno_one = new Bruno() ;
+
+      Bruno_one.sayHello() ;
+
+  var Alpha_One = new Alpha() ;
+
+      Alpha_One.sayNationality() ;
+
 
 }
