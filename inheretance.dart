@@ -1,33 +1,43 @@
 class Person {
-  // attributes
-  String first_name, last_name, nationality ;
+  // attributes of a person
+  String first_name, last_name, sex ;
   int age ;
-
-
-  // methods
-  showName () {
-    print (this.first_name) ;
+  
+  // methods of that person
+  void sayHello () {
+    print ("Hello") ;
   }
+
+  void sayNationality () {
+    print ("I don't know  yet !") ;
+
+  }
+
+
 }
 
-  //  inheretance of bonni class
+class Bruno extends Person {
 
-  class Bonni extends Person {
+    String education_level ;
 
-    String get getName => first_name ;
-
-
+    @override
+  void sayHello() {
+    // TODO: implement sayHello
+    print ("HABARI") ;
   }
 
+  
 
-  main(List<String> args) {
-    var bonni = new Bonni() ;
-    bonni.age = 21 ;
+}
 
-    bonni.getName = "juma"
-    
-    
-    
-    
-    
-     }
+class Alpha extends Person {
+
+    String work_experience ;
+
+    @override
+  void sayHello() {
+    // TODO: implement sayHello
+    print ("NIAJE") ;
+  }
+
+}
