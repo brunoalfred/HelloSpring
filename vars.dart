@@ -16,11 +16,18 @@ main(List<String> args) {
   var job = new Person("Job") ;
   var climson = new Person("Climson") ;
 
-  var listOfNames = new List<Person>() ;
+  var listOfNames = new List<Person>() ; 
     listOfNames.add(joshua) ;
     print(listOfNames[0]) ;
 
-    listOfNames.add(job) ;
+  
+
+
+
+
+
+    // where we explore list as  class/type 
+    // Pre-defined
 
     var list_of_strings = new List<String>() ;
     list_of_strings.add("Juma") ;
