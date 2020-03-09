@@ -27,8 +27,10 @@ class ExtendedLocation extends Location {
 main(List<String> args) {
   
   var elevated = ExtendedLocation(23.2, 34.4, 90) ;
-
+  print(elevated.lat) ;
+  print(elevated.lng) ;
   print (elevated.elevation) ;
+
 
 
 
