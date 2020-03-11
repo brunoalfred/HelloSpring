@@ -1,31 +1,18 @@
-class student {
-  // set the attributes of the student
-  String name ;
-  int age ;
-  int phone_number ;
+// Objectives
+//  1.Default Getter and Setter
+//  2.Custom Getter and Setter
+//  3.Private instance varible
 
-  // constructors 
-  student{this.name, this.age, this.phone_number} ;
+void main () {
 
-  // setter
-
-  set setName (String value)  => name = value ;
-
-  //  getter 
-
-  String get getName => name ;
+  // instantiating an object 
+  var student = new Student() ;
 
 
 }
-                                                                                                                                                                                                                                                                                                                                                                                             
-main(List<String> args) {
+
+class Student {
+  // attributes to a student blueprint
+  String name ;
   
-  // instantiating the class
-  var john = new student ("john", 20, 071273821) ;
-
-
-
-
-
-
 }
