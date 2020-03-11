@@ -19,6 +19,13 @@ class Dog extends Animal {
     print ("Bark !") ;
   }
 
+  @override
+  void eat() {
+    // TODO: implement eat
+    print ("Dog is eating ") ;
+    
+  }
+
 }
 
 class Cat extends Animal {
@@ -29,6 +36,8 @@ class Cat extends Animal {
   void meow () {
     print ("Meow !") ;
   }
+
+
 
 
 }
@@ -56,7 +65,7 @@ main(List<String> args) {
     var animal = new Animal() ;
     animal.color = "Yellow" ;
     animal.eat() ;
-
+      
 
 }
 
