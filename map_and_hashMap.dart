@@ -29,8 +29,15 @@ void main () {
     print(value) ;
   }
 
-  print("\n") ;
+  print("\n") ; 
 
   // To access both value and key in the Map.
   fruit.forEach((key, value) => print("key: $key and value: $value")) ;
+
+  // checking is a particular key is present 
+  // returns true if a key is present in the Map.
+  print(  fruit.containsKey("apple"))  ;
+
+
+  // inca
 }
