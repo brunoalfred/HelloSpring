@@ -43,4 +43,12 @@ void main () {
   fruit.update("apple", (value) => "green") ;
   print(fruit["apple"]) ;
   
+  print("\n") ;
+
+  // to perform delete, isEmpty, length, clear operation
+  fruit.remove("apple") ;
+  print(fruit.isNotEmpty);
+  fruit.length;
+  fruit.clear(); //it removes all key-value pairs in the Map.
+
 }
