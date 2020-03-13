@@ -47,8 +47,9 @@ void main () {
 
   // to perform delete, isEmpty, length, clear operation
   fruit.remove("apple") ;
+  print(fruit.containsKey("apple")) ;
   print(fruit.isNotEmpty);
-  fruit.length;
+  print(fruit.length);
   fruit.clear(); //it removes all key-value pairs in the Map.
 
 }
