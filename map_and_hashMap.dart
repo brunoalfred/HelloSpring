@@ -14,6 +14,16 @@ void main () {
   fruit["banana"] = "yellow" ;
   fruit["guava"] = "green" ;
 
+
+// alternative way towards creating maps in dart lang.
+
+  Map<String, int> countryDialingCode = {
+    "USA": 1 ;
+    "TANZANIA": 255 ;
+    "INDIA": 91 ;
+    "PAKISTAN": 92;
+  }
+
   print (fruit["apple"]) ;
 
   // using for each loop to access all keys in our map.
