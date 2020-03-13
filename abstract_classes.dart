@@ -1,7 +1,7 @@
 // THis is an abstract class
 // In abstract methods needto be override in the sub-class.
 // An abstract class has to end with semicolon (;) instead of the method body.
-// Use abstract keyword to declare abstract class.
+// Use abstract keyword to declare abstract class
 
 
 abstract class Animal {
