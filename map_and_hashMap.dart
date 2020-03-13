@@ -39,5 +39,8 @@ void main () {
   print(  fruit.containsKey("apple"))  ;
 
 
-  // inca
+  // incase of changing value is the Map
+  fruit.update("apple", (value) => "green") ;
+  print(fruit["apple"]) ;
+  
 }
