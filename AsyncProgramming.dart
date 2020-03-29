@@ -1,13 +1,21 @@
 import 'dart:async';
 
 void main() {
+
+  print("Main Program: Starts");
+
   printFileContent();
+
+  print("Main Program: Ends");
+
 }
 
 //
-printFileContent() {
-  Future<String> fileContent = downLoadFile();
+printFileContent () async {
+
+  String fileContent = await downLoadFile();
   print('The content of the file is --> $fileContent');
+
 }
 
 // To download a FIle [Dummy LONG running Operation]
