@@ -18,11 +18,11 @@ void main () {
 // alternative way towards creating maps in dart lang.
 
   Map<String, int> countryDialingCode = {
-    "USA": 1 ;
-    "TANZANIA": 255 ;
-    "INDIA": 91 ;
-    "PAKISTAN": 92;
-  }
+    "USA": 1 ,
+    "TANZANIA": 255 ,
+    "INDIA": 91 ,
+    "PAKISTAN": 92
+  };
 
   print (fruit["apple"]) ;
 
