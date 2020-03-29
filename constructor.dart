@@ -37,12 +37,11 @@ main(List<String> args) {
 
    
   // instantiating another object 
-  var me = new dog.initialized(24, "male", 43) ;
-  print(object)
+  var me = new dog.initialized() ;
+  print(me);
 
   // getters and setters implicitly
   
-  me.age 
 
 
 }
