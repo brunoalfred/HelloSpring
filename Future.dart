@@ -13,6 +13,8 @@ void main() {
       print("caught $err");
     },
     test: (err) => err.runtimeType == String,
-  );
+  ).whenComplete(() {
+    print("All finished");
+  });
   print("awaiting..");
 }
