@@ -23,7 +23,7 @@ printFileContent () {
   Future<String> fileContent = downLoadFile();
   fileContent.then((resultString) {
     print (resultString);
-  };
+  }
 
 }
 
