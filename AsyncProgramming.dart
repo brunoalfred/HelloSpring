@@ -10,11 +10,20 @@ void main() {
 
 }
 
-//
-printFileContent () async {
+// //
+// printFileContent () async {
 
-  String fileContent = await downLoadFile();
-  print('The content of the file is --> $fileContent');
+//   String fileContent = await downLoadFile();
+//   print('The content of the file is --> $fileContent');
+
+// }
+
+printFileContent () {
+
+  Future<String> fileContent = downLoadFile();
+  fileContent.then((resultString) {
+    print (resultString);
+  };
 
 }
 
