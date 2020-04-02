@@ -26,6 +26,8 @@ Future<String> fetchUserOrder() {
 
 void main() {
   print("Program Start");
+  // Since it didn't get the value of the User Order, the responce becomes
+  // "Your order is: Instance of '_Future'"
   print(createOrderMessage());
 
   print("Program Ends");
