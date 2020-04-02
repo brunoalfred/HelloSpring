@@ -11,13 +11,22 @@ For perfoming asynchronous operations in Dart, you can use Future class,
     */
 
 // How not to Write the Future
-String createOrderMessage () {
+// To create the User Order, we Have to wait for the response form from the
+// fetchUserOrder to finish it's operation
+String createOrderMessage() {
+  // It fails to wait for the response from fetchUserOrder async function
   var order = fetchUserOrder();
-  return "Your order is: $order"; 
+  return "Your order is: $order";
 }
 
 Future<String> fetchUserOrder() {
-  return Future.delayed(Duration(seconds: 5),() => "Ugali");
+  // is asynchronous function that, after a delay provides a String for the User Order.
+  return Future.delayed(Duration(seconds: 5), () => "Ugali");
 }
 
+void main() {
+  print("Program Start");
+  print(createOrderMessage());
 
+  print("Program Ends");
+}
