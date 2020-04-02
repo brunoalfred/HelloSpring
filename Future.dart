@@ -1,20 +1,10 @@
-import 'dart:async';
+/* Asynchronous programming lets a program work while waiting for another 
+running operation */
+/* Common application Are:
+    - Fetching data over network
+    - Writing to a database
+    - Reading data form a file
 
-void main() {
-  Future<int>.delayed(
-    Duration(seconds: 3),
-    () {
-      throw Exception();
-    },
-  ).then((value) {
-    print(value);
-  }).catchError(
-    (err) {
-      print("caught $err");
-    },
-    test: (err) => err.runtimeType == String,
-  ).whenComplete(() {
-    print("All finished");
-  });
-  print("awaiting..");
-}
+For perfoming asynchro
+    */
+
