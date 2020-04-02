@@ -1,5 +1,7 @@
 import 'dart:async';
 
+
+
 /* 
 
 The ``async`` and ``await`` keyword are to provide declarative way to define 
@@ -12,3 +14,20 @@ The ``async`` and ``await`` keyword are to provide declarative way to define
 
 // How to implement the Future Class in Dart
 
+Future<String> createUserOrder () async {
+  // There is waiting for ``fetchUserOrder function`` to be excuted
+  var order = await fetchUserOrder();
+  return "The order Is: $order";
+  }
+  
+
+
+Future<String> fetchUserOrder() async {
+  // There waiting for asynchronous operations to be complited
+  return Future.delayed(Duration(seconds: 5), () => "Ugali");
+}
+
+Future<void> main ()  async {
+  print("Fetching the order from User....");
+  print(await createUserOrder());
+}
