@@ -8,3 +8,10 @@ Future<String> fetchRole() async {
 Future<int> fetchLoginAmount() async {
   return Future.delayed(Duration(seconds: 5), () => 10);
 } 
+
+Future<String> reportUserRole() async {
+  var role = await fetchRole();
+  return "The user role: $role";
+}
+
+Future<int> reportLogins() 
