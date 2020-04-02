@@ -1,5 +1,7 @@
 import 'dart:async';
 
+import 'dart:ffi';
+
 Future<String> fetchRole() async {
   // To fetch user Role, Its an asyncronous operations
   return Future.delayed(Duration(seconds: 5), () => "Programmer");
@@ -19,7 +21,11 @@ Future<int> reportLogins() async {
   return logins;
 }
 
-Future<String, int> main() async {
+Future<Void> main() async {
   print("fetching User\'s Roles....");
   print(await reportUserRole());
+
+  // printing the number of Login attempts 
+  print("fetching the number of user\'s attempts to login....");
+  print(await reportLogins());
 }
