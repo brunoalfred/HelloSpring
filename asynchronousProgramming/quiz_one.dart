@@ -14,4 +14,12 @@ Future<String> reportUserRole() async {
   return "The user role: $role";
 }
 
-Future<int> reportLogins() 
+Future<int> reportLogins() async {
+  var logins = await fetchLoginAmount();
+  return logins;
+}
+
+Future<String, int> main() async {
+  print("fetching User\'s Roles....");
+  print(await reportUserRole());
+}
