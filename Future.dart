@@ -5,6 +5,7 @@ running operation */
     - Writing to a database
     - Reading data form a file
 
-For perfoming asynchro
+For perfoming asynchronous operations in Dart, you can use Future class, 
+``async`` and ``await`` keywords
     */
 
