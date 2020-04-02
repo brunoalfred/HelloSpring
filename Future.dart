@@ -7,5 +7,17 @@ running operation */
 
 For perfoming asynchronous operations in Dart, you can use Future class, 
 ``async`` and ``await`` keywords
+
     */
+
+// How not to Write the Future
+String createOrderMessage () {
+  var order = fetchUserOrder();
+  return "Your order is: $order"; 
+}
+
+Future<String> fetchUserOrder() {
+  return Future.delayed(Duration(seconds: 5),() => "Ugali");
+}
+
 
