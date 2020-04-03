@@ -18,7 +18,7 @@ void main() {
 
 // }
 
-printFileContent () {
+Future<String> printFileContent() async{
 
   Future<String> fileContent = downLoadFile();
   fileContent.then((resultString) {
@@ -30,9 +30,9 @@ printFileContent () {
 // To download a FIle [Dummy LONG running Operation]
 
 Future<String> downLoadFile() {
-  Future<String> result = Future.delayed(Duration(seconds: 6), () {
-    return 'My Secret File Content';
-  });
+  Future<String> result = Future.delayed(Duration(seconds: 6), () 
+    =>'My Secret File Content');
+ 
 
   return result;
 }
