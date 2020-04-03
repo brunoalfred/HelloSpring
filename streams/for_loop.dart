@@ -8,6 +8,13 @@ Future<int> sumStream(Stream<int> stream) async {
   return sum;
 }
 
-Stream<int> countStream(int to) async*{
-  for (int i = 1;)
+Stream<int> countStream(int to) async* {
+  for (int i = 1; i <= to; i++) {
+    yield i;
+  }
+}
+
+void main() async {
+  var stream = countStream(10);
+  var sum = await sumStream(stream);
 }
