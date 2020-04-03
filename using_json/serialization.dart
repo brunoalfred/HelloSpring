@@ -9,3 +9,11 @@ This discussion involves issues of dart serialization and deserializations
       * package:built_value
         -A powerful, opinionated  alternative to JSON_serializable
  */
+
+
+import 'dart:convert';
+
+{
+  "name": "John Smith",
+  "email": "john@example.com"
+}
