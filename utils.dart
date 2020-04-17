@@ -6,3 +6,8 @@ Future<String> callWaiting() async {
   return call;
 }
 
+
+Future<String> sendMessage () async {
+  var info = await callWaiting();
+  return Future.delayed(Duration(seconds: 2), () => 'Message Sent');
+}
