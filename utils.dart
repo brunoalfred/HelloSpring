@@ -11,3 +11,7 @@ Future<String> sendMessage () async {
   var info = await callWaiting();
   return Future.delayed(Duration(seconds: 2), () => 'Message Sent');
 }
+
+Future<void> main() {
+  
+}
