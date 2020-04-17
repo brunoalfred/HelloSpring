@@ -1,20 +1,3 @@
-
-
-main() {
-	var a = 3;
-	var b = 7 ;
-	var c = sumOfNumbers(a, b);
-	print(c);
-
+void main () {
+	print ('Hello World');
 }
-
-
-
-
-
-
-
-
-
-int sumOfNumbers (int a, int b) => a + b ;
-
