@@ -1,5 +1,5 @@
 
-package com.example.demo;
+package me.brunoalfred.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
